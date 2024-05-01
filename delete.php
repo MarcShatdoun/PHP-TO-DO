@@ -4,7 +4,6 @@ include_once "connection.php";
 
 $id = $_GET['id'];
 // echo $id;
-
 $delete = "DELETE FROM to_do WHERE id = ?";
 $delete_prepare = $conn->prepare($delete);
 $delete_prepare->execute([$id]);

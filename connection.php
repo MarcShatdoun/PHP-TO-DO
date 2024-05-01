@@ -11,7 +11,6 @@ try {
 
 $conn = new PDO($link, $userName, $password);
 
-
 // echo "Connection established ";
 
 } catch (PDOException $e){

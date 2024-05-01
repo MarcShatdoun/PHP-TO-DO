@@ -23,9 +23,6 @@ if ($_POST) {
     header('location:index.php');
 }
 ?>
-
-
-
 <!-- ==================================================== -->
 
 <!DOCTYPE html>
@@ -37,9 +34,7 @@ if ($_POST) {
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
 <header>
     <h1>Lista de tareas</h1>
 </header>
@@ -63,14 +58,14 @@ if ($_POST) {
 
     <section class="flex-container">
         <form method="POST">
-            <legend>Añade informacion sobre tu tarea</legend>
+            <legend>Añade informacion sobre tu tarea:</legend>
             <div>
                 <label for="nombre">Nombre del usuario :</label>
                 <input type="text" id="nombre" name="nombre">
             </div>
             <div>
-                <label for="mensaje">Ingrese su tarea pendiente</label>
-                <input type="textarea" id="mensaje" name="mensaje">
+                <label for="mensaje">Ingrese su tareA pendiente</label>
+                <input type="textarea" id="mensaje" name="mensaje" >
             </div>
             <div>
                 <label for="estado">Estado:</label>

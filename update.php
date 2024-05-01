@@ -8,7 +8,6 @@ echo $_GET['color'];
 echo $colores[$_GET['color']];
 
 
-
 $update = "UPDATE color set color = ?,  WHERE id = ?;";
 $update_prepare = $conn->prepare($update);
 $update_prepare->execute([$_GET['color'], 
